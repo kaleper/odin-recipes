@@ -1,5 +1,6 @@
 body {
     background-color:#c2c20030;
+    font-family: "Courier New", monospace;
 }
 
 .center {
@@ -12,14 +13,27 @@ h1 {
     font-size: 50px;
 }
 
-ol {
-    list-style-position:inside;
+.recipe-headers {
+    text-align: left;
+    color: #ff000080;
+    font-size: 50px;
+}
+
+.index-recipes .listed-item {
+    list-style-position: inside;
     text-align: center;
-    color: #ff000060;
+    color: #00000060;
     font-size: 32px;
 }
 
-.listed-item a {
-    font-size: 32px;
+ a {
     color: #ff000060;
+}
+
+.recipe-text {
+    color:#ff000080;
+}
+
+.recipe-subheader {
+    color:rgba(69, 69, 69, 0.8);
 }
